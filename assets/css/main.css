@@ -1859,7 +1859,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			box-shadow: 0 0 0 2px #21b2a6;
+			box-shadow: 0 0 0 2px #ffffff;
 		}
 
 	select {
@@ -2439,7 +2439,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.25);
+			background-color: rgba(253, 74, 55, 0.25);
 		}
 
 		input[type="submit"]:active,
@@ -2817,7 +2817,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style1 {
-			background-color: #5474f5;
+			background-color: #1a69b8;  /*Color del Banner 1a69b8   Viejo: 5474f5 */
 			color: #c8ece9;
 		}
 
@@ -2976,11 +2976,11 @@ input, select, textarea {
 			}
 
 		.wrapper.style2 {
-			background-color: #2e3842;
+			background-color: #6a6a6a; /*preguntar si se cambia*/
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #1a69b8;
 			color: #d3d4e4;
 		}
 
@@ -3445,7 +3445,7 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease;
 		-ms-transition: background-color 0.2s ease;
 		transition: background-color 0.2s ease;
-		background: #2e3842;
+		background: #fd4a37;/*Color viejo   2e3842*/
 		height: 3em;
 		left: 0;
 		line-height: 3em;
@@ -3632,6 +3632,7 @@ input, select, textarea {
 			letter-spacing: 0.225em;
 			text-transform: uppercase;
 		}
+		
 
 			#banner p a {
 				color: inherit;
@@ -3694,7 +3695,7 @@ input, select, textarea {
 			-ms-transition-delay: 1.25s;
 			transition-delay: 1.25s;
 			content: '';
-			background: #2e3842;
+			background: #1a69b8; /* Color de la transición*/
 			display: block;
 			width: 100%;
 			height: 100%;
@@ -3746,8 +3747,8 @@ input, select, textarea {
 		opacity: 0;
 	}
 
-	body.is-preload #banner:after {
-		opacity: 1;
+	body.is-preload #banner:after { /*Opacidad inicial*/
+		opacity: 1.0;
 	}
 
 /* CTA */
@@ -3886,7 +3887,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: #fd4a37;/*   Color viejo:    1d242a*/
 		text-align: center;
 	}
 
@@ -3995,5 +3996,5 @@ input, select, textarea {
 	}
 
 	body.is-mobile.landing #footer {
-		background-color: #1d242a;
+		background-color: #fd4a37;/* COlor viejo   1d242a*/
 	}
